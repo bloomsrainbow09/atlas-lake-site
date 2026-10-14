@@ -1,0 +1,40 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Atlas Lake</title>
+<style>
+  :root { color-scheme: light dark }
+  body { font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif;
+         max-width: 42rem; margin: 4rem auto; padding: 0 1.25rem }
+  h1 { font-size: 1.6rem; letter-spacing: -.02em; margin-bottom: .25rem }
+  p.sub { color: #666; margin-top: 0 }
+  h2 { font-size: 1.05rem; margin-top: 2rem }
+  footer { margin-top: 3rem; color: #666; font-size: .9rem }
+  a { color: #1d4ed8 }
+</style>
+
+<h1>Atlas Lake</h1>
+<p class="sub">A private tool for storing and querying a large Parquet dataset.</p>
+
+<h2>What it is</h2>
+<p>
+  Atlas Lake is a personal, single-user utility. It keeps a large read-only
+  dataset in cloud storage and runs analytical queries against it. It is not a
+  product, has no sign-ups, and is used by its author only.
+</p>
+
+<h2>Why it asks for Google Drive access</h2>
+<p>
+  One part of the dataset is stored in a single folder of the operator's own
+  Google Drive. The application needs to upload files to that folder and read
+  them back. That is the only reason it requests Drive access, and the only
+  thing it does with it.
+</p>
+
+<h2>Privacy</h2>
+<p>See the <a href="privacy.html">privacy policy</a>.</p>
+
+<footer>
+  Operated privately. Contact:
+  <a href="mailto:prarthnadoshi@gmail.com">prarthnadoshi@gmail.com</a>
+</footer>
