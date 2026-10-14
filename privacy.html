@@ -1,0 +1,69 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Atlas Lake - Privacy Policy</title>
+<style>
+  :root { color-scheme: light dark }
+  body { font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif;
+         max-width: 42rem; margin: 4rem auto; padding: 0 1.25rem }
+  h1 { font-size: 1.5rem; letter-spacing: -.02em }
+  h2 { font-size: 1.05rem; margin-top: 2rem }
+  p.sub { color: #666; margin-top: 0 }
+  footer { margin-top: 3rem; color: #666; font-size: .9rem }
+  a { color: #1d4ed8 }
+  li { margin: .35rem 0 }
+</style>
+
+<h1>Privacy Policy</h1>
+<p class="sub">Atlas Lake &middot; last updated 15 October 2026</p>
+
+<h2>Who this covers</h2>
+<p>
+  Atlas Lake is a private, single-user application. The only person who
+  authorises it is its operator, using their own Google account. There are no
+  other users, no accounts and no sign-up.
+</p>
+
+<h2>What Google data it accesses</h2>
+<p>
+  The application requests the Google Drive scope
+  <code>https://www.googleapis.com/auth/drive</code> so that it can:
+</p>
+<ul>
+  <li>create and upload files into one folder of the operator's own Drive;</li>
+  <li>read those files back when running a query;</li>
+  <li>list that folder's contents to verify an upload completed intact.</li>
+</ul>
+<p>
+  It writes only to the folder the operator nominates. It does not open,
+  modify, move or delete anything else in the Drive.
+</p>
+
+<h2>What it does not do</h2>
+<ul>
+  <li>No Google data is sent to any third party.</li>
+  <li>No Google data is used for advertising, profiling or training any model.</li>
+  <li>No analytics, telemetry or tracking of any kind is collected.</li>
+  <li>Nothing is shared, published or made publicly accessible.</li>
+</ul>
+
+<h2>Credentials</h2>
+<p>
+  The OAuth refresh token is held in encrypted secret storage and is used only
+  to obtain short-lived access tokens for the Drive API. It is never written to
+  a log, a repository or a file in the dataset. It can be revoked at any time
+  from the operator's
+  <a href="https://myaccount.google.com/permissions">Google account
+  permissions</a> page, which immediately ends all access.
+</p>
+
+<h2>Retention</h2>
+<p>
+  Files the application uploads remain in the operator's own Drive until the
+  operator deletes them. No copy of any Google data is retained anywhere else.
+</p>
+
+<h2>Contact</h2>
+<p><a href="mailto:prarthnadoshi@gmail.com">prarthnadoshi@gmail.com</a></p>
+
+<footer><a href="./">Back to Atlas Lake</a></footer>
